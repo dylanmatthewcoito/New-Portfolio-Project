@@ -1,0 +1,113 @@
+/* General Styles */
+
+
+body {
+  margin: 0;
+  font-family: ;
+}
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+main h2 {
+  font-size: ;
+  font-family: ;
+  font-weight: 400;
+}
+
+main h3 {
+  font-size: ;
+  font-family: ;
+  font-weight: 400;
+}
+
+main p {
+  font-family: ;
+  line-height: 1.5em;
+  margin-bottom: 0em;
+}
+
+/* Header */
+
+header {
+  background-color: ;
+  margin-bottom: ;
+  display: block;
+}
+
+header h1 {
+  color: ;
+  text-align: center;
+  margin: 0;
+  padding: ;
+  font-family: ;
+  font-size: ;
+}
+
+
+/* Main */
+
+main .wrapper h2 {
+  padding-left: ;
+  margin-bottom: 0;
+}
+
+main .intro {
+  font-size: ;
+  color: ;
+}
+
+
+/* Groups and Items (Mobile First) */
+
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+
+/* Groups and Items (Desktop) */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* Article Sections */
+
+#home, #portfolio, #contact {
+  margin-bottom: 120px;
+}
+
+/* About Article */
+
+#about {
+  background-color: ;
+  padding: ;
+  margin: ;
+}
